@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div>
+        <nav>
+           <ul>
+             <li>
+               <a href="index.html">ABOUT ME</a>
+               <a href="Bobotek.html">HOME</a>
+               <a href="achievement1.html">BLOG ONE</a>
+               <a href="achievement2.html">BLOG TWO</a>
+               <a href="form.html">JOIN US</a>
+             </li>
+           </ul>
+           </nav>
+         </div>
+   
+    <div class="from">
+      <h1 class="style">JOIN US AT BOBOTECH INC.</h1>
+      <p class="love">You are most welcome to work with us at Bobotech.Below is a form to <br>fill to start your application process;</p>
+      <form>
+        <label for="name">FULL NAME:</label>
+        <input
+          type="text"
+          name="name"
+          id="fname"
+          placeholder="ABDUL NASSER KAYONDO"
+          required
+        /><br /><br />
+
+        <label for="age">AGE:</label>
+        <input type="number" name="age" id="fname" /><br /><br />
+
+        <label for="email">EMAIL:</label>
+        <input
+          type="text"
+          name="email"
+          id="fname"
+          placeholder="kayondo744@gmail.com"
+          required
+        /><br /><br />
+
+        <label for="phone">TELEPHONE NUMBER:</label>
+        <input
+          type="text"
+          name="phone"
+          id="fname"
+          target="+256 7(0-9)(2) (0-9)(3) (0-9)(3)"
+          required
+        /><br /><br />
+
+        <label for="skill">TECHNICAL SKILL:</label><br>
+        <textarea class="promo" name="skill" id="skill" rows="10" cols="20"></textarea
+        ><br /><br />
+
+        <label for="qualification" class="school">TECHNICAL Qualification:</label>
+        <select id="qualification" name="qualification" class="oil">
+          <options value="masters">Masters</options>
+          <options value="bachelors">Bachelors</options>
+          <options value="diploma">Diploma</options>
+          <options value="others">Others</options>
+        </select><br><br>
+
+        <label for="coverletter">COVERLETTER:</label>
+        <input
+          type="file"
+          name="coverletter"
+          id="coverletter"
+          required
+        /><br /><br />
+
+        <label for="curriculum vitae">CURRICULUM VITAE:</label>
+        <input
+          type="file"
+          name="curriculum vitae"
+          id="curriculum vitae"
+          required
+        /><br /><br />
+        <input type="submit" class="button" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
